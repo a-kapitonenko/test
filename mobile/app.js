@@ -13,7 +13,7 @@ class App extends React.Component {
             <PlaylistViewFeed
               playlistNewsfeedLoading={props.playlistID}
               getUniquePersons={props.getUniquePersons}
-              // and other methods and props
+              // other methods and props
             />
           }
         </PlaylistViewFeedContainer>
