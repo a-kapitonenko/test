@@ -28,7 +28,7 @@ class PlaylistViewFeedContainer extends React.Component {
     {this.props.children({
       ...this.props,
       getUniquePersons,
-      // others methods
+      // other methods
     })}
   }
 }
