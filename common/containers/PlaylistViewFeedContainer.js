@@ -21,7 +21,7 @@ class PlaylistViewFeedContainer extends React.Component {
 
     console.log('componenent newsfeed did mount for playlistid:', playlistID);
 
-    this.loadPlaylistNewsfeedView();
+    this.loadPlaylistNewsfeedView(playlistID);
   }
 
   render() {
