@@ -17,11 +17,11 @@ const mapDispatchToProps = (dispatch) => ({
 
 class PlaylistViewFeedContainer extends React.Component {
   componentDidMount() {
-    const { playlistID } = this.props;
+    const { playlistID, loadPlaylistNewsfeedView } = this.props;
 
     console.log('componenent newsfeed did mount for playlistid:', playlistID);
 
-    this.loadPlaylistNewsfeedView(playlistID);
+    loadPlaylistNewsfeedView(playlistID);
   }
 
   render() {
